@@ -1,0 +1,14 @@
+project_name:
+    type: str
+    help: Name for the project?
+
+project_description:
+  type: str
+  help: Description of the project?
+  default: Just another project
+
+use_make:
+    type: bool
+    default: true
+    help: Do you want to use make?
+
